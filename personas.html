@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Human Factors for Healthcare Engineers</title>
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta charset="UTF-8">
+    
+    <link type="image/x-icon" href="images/HF4HC_icon.png" rel="shortcut icon">
+    <link type="text/css" href="css/styles.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700" rel="stylesheet">
+</head>
+
+<body class="">
+
+    <!-- Root Wrapper -->
+    
+    <div id="root" class="vbox fixed">
+
+      <!-- Header -->
+
+      	<div id="header" class="hbox valign fixed">
+          
+			<div id="brand" class="hbox fixed">
+				<a id="logo" href="index.html"><img src="images/HF4HC_logo.png"/></a>
+			</div>
+
+<!-- 			<div class="main_nav hbox fixed">
+				<a>Human Factors</a>
+				<a>Resources</a>
+				<a>Product Roadmap</a>
+			</div> -->
+
+			<div class="spacer"></div>
+      
+			<div class="sub_nav hbox fixed">
+				<a href="about.html">About Us</a>
+				<a href="acknowledgements.html">Acknowledgements</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+  
+      <!-- End Header -->
+      
+	  <!-- Start Content -->		    	
+		<div id="inner" class="hbox">
+
+			<!-- Start NAV -->
+
+			<ul id="left" class="vbox scroll ">
+				<li><a href="index.html">Introduction to Human Factors</a></li>
+				<li><a href="incorp.html">Incorporating Human Factors</a></li>
+				<li onclick="navigation('poordesign')"><a>Examples of Poor Design</a>
+					<ul id="poordesign" class="sub-menu">
+						<li><a href="poordesign.html">Overview</a></li>
+						<li><a href="infusionpump.html">Infusion Pumps</a></li>
+						<li><a href="therac25.html">Therac-25</a></li>
+						<li><a href="davinci.html">da Vinci Robot</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('methods')"><a>Understanding user needs</a>
+					<ul id="methods" class="sub-menu">
+						<li><a href="userneeds.html">Overview</a></li>
+						<li><a href="focusgroups.html">Focus Groups</a></li>
+						<li><a href="interviews.html">Interviews</a></li>
+						<li><a href="observations.html">Observations</a></li>
+						<li><a href="contextinquiry.html">Contextual Inquiry</a></li>
+						<li><a href="taskanalysis.html">Task Analysis</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('design')"><a>Design Stage</a>
+					<ul id="design" class="sub-menu" style="display: block;">
+						<li><a href="designstage.html">Overview</a></li>
+						<li><a href="workshops.html">Workshops (Co-design)</a></li>
+						<li><a href="prototypes.html">Prototypes</a></li>
+						<li><a href="personas.html" class="active">Personas</a></li>
+						<li><a href="scenarios.html">Scenarios</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('test')"><a>Test and Refine</a>
+					<ul id="test" class="sub-menu">
+						<li><a href="testrefine.html">Overview</a></li>
+						<li><a href="cogntivewalkthrough.html">Cognitive Walkthrough</a></li>
+						<li><a href="heuristic.html">Heuristic Evaluation</a></li>
+						<li><a href="usability.html">Usability Study</a></li>
+						<li><a href="userexperience.html">User Experience Evaluation</a></li>
+						<li><a href="inthewild.html">'In the Wild' testing</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('analysis')"><a>Data Analysis</a>
+					<ul id="analysis" class="sub-menu">
+						<li><a href="analysis.html">Overview</a></li>
+						<li><a href="qualitative.html">Qualitative Analysis</a></li>
+					</ul>
+				</li>
+				<li><a href="standards.html">Regulatory Guidelines and Standards</a></li>
+				<li><a href="ethics.html">Ethical Considerations</a></li>
+				<li><a href="resources.html">Additional Resources</a></li>
+			</ul>
+
+			<!-- End NAV -->
+
+			<div id="main" class="vbox">
+				<div id="content" class="hbox">
+					<div id="article" class="vbox comfortable scroll fixed">	
+						
+						<h2>Personas</h2>
+						<h3>Key Point</h3>
+						<ul>
+							<li>Develop a representative profile based on evidence captured from observations, interviews, and other sources of data of users.</li>
+						</ul>
+
+						<h3>What are they and Why use them</h3>
+						<p>The development of a persona allows researchers to have a clear image in their mind of who they are developing a product for. A persona provides a snapshot of a generic user and provides information such as: their job title and/or responsibilities, demographics, goals and tasks they need to complete, the environment they work in, with supporting quotes from the data. An example of a persona used to highlight a clinical engineer can be seen below.</p>
+
+						<img src="images/persona-example.png" width="80%">
+
+						<h3>When to use them</h3>
+						<p>A persona should be developed at the end of the understanding user needs phase, after all the data has been obtained and analysed.</p>
+
+						<h3>How to use them</h3>
+						<p>From the data, group similar participants together to generate a single profile that represents that user group. Each profile should contain information obtained from observations, interviews, contextual inquiries, etc., about each identified user. The information in the persona should detail the major goals and needs identified, but should be broad enough that it describes a group of participants, and not a specific individual.</p>
+
+						<h3>Pros</h3>
+						<p>Help focus the design ideation to ensure that it meets the requirements of the prescribed user; can be created quite quickly from the data.</p>
+
+						<h3>Cons</h3>
+						<p>Can become outdated quite quickly, depending on the method used to generate the persona they may be based on users’ opinions rather than reality.</p>
+
+						<h3>Points to ponder</h3>
+						<ul class="points">
+							<li>How does the data support the persona?</li>
+							<li>What motivates your persona to achieve their tasks?</li>
+							<li>What are the needs of your persona?</li>
+							<li>Does this persona interact with other personas, and what relationship exists between them?</li>
+						</ul>
+						    
+					</div>
+
+					<div id="sidebar" class="pages">
+						<h3>Resources</h3>
+						<hr>
+						<p>For further understanding on developing personas, <a href="https://www.usability.gov/how-to-and-tools/methods/personas.html">click here</a> (9 min read time).</p>
+					</div>
+				</div>
+
+				<div id="footer" class="hbox fixed">
+					<div class="spacer"></div>
+					<a id="logo" href="http://www.fast-healthcare.org.uk/"><img src="images/fasts_logo.png"/></a>
+					<a id="logo" href="https://www.ucl.ac.uk/interventional-surgical-sciences/"><img src="images/WEISS_logo.jpg"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- End Content -->
+
+    <!-- Begin Scripts -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="js/default.js"></script>
+
+</body>
+</html>

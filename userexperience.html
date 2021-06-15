@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Human Factors for Healthcare Engineers</title>
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta charset="UTF-8">
+    
+    <link type="image/x-icon" href="images/HF4HC_icon.png" rel="shortcut icon">
+    <link type="text/css" href="css/styles.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700" rel="stylesheet">
+</head>
+
+<body class="">
+
+    <!-- Root Wrapper -->
+    
+    <div id="root" class="vbox fixed">
+
+      <!-- Header -->
+
+      	<div id="header" class="hbox valign fixed">
+          
+			<div id="brand" class="hbox fixed">
+				<a id="logo" href="index.html"><img src="images/HF4HC_logo.png"/></a>
+			</div>
+
+<!-- 			<div class="main_nav hbox fixed">
+				<a>Human Factors</a>
+				<a>Resources</a>
+				<a>Product Roadmap</a>
+			</div> -->
+
+			<div class="spacer"></div>
+      
+			<div class="sub_nav hbox fixed">
+				<a href="about.html">About Us</a>
+				<a href="acknowledgements.html">Acknowledgements</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+  
+      <!-- End Header -->
+      
+	  <!-- Start Content -->		    	
+		<div id="inner" class="hbox">
+
+			<!-- Start NAV -->
+
+			<ul id="left" class="vbox scroll ">
+				<li><a href="index.html">Introduction to Human Factors</a></li>
+				<li><a href="incorp.html">Incorporating Human Factors</a></li>
+				<li onclick="navigation('poordesign')"><a>Examples of Poor Design</a>
+					<ul id="poordesign" class="sub-menu">
+						<li><a href="poordesign.html">Overview</a></li>
+						<li><a href="infusionpump.html">Infusion Pumps</a></li>
+						<li><a href="therac25.html">Therac-25</a></li>
+						<li><a href="davinci.html">da Vinci Robot</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('methods')"><a>Understanding user needs</a>
+					<ul id="methods" class="sub-menu">
+						<li><a href="userneeds.html">Overview</a></li>
+						<li><a href="focusgroups.html">Focus Groups</a></li>
+						<li><a href="interviews.html">Interviews</a></li>
+						<li><a href="observations.html">Observations</a></li>
+						<li><a href="contextinquiry.html">Contextual Inquiry</a></li>
+						<li><a href="taskanalysis.html">Task Analysis</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('design')"><a>Design Stage</a>
+					<ul id="design" class="sub-menu">
+						<li><a href="designstage.html">Overview</a></li>
+						<li><a href="workshops.html">Workshops (Co-design)</a></li>
+						<li><a href="prototypes.html">Prototypes</a></li>
+						<li><a href="personas.html">Personas</a></li>
+						<li><a href="scenarios.html">Scenarios</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('test')"><a>Test and Refine</a>
+					<ul id="test" class="sub-menu" style="display: block;">
+						<li><a href="testrefine.html">Overview</a></li>
+						<li><a href="cogntivewalkthrough.html">Cognitive Walkthrough</a></li>
+						<li><a href="heuristic.html">Heuristic Evaluation</a></li>
+						<li><a href="usability.html">Usability Study</a></li>
+						<li><a href="userexperience.html" class="active">User Experience Evaluation</a></li>
+						<li><a href="inthewild.html">'In the Wild' testing</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('analysis')"><a>Data Analysis</a>
+					<ul id="analysis" class="sub-menu">
+						<li><a href="analysis.html">Overview</a></li>
+						<li><a href="qualitative.html">Qualitative Analysis</a></li>
+					</ul>
+				</li>
+				<li><a href="standards.html">Regulatory Guidelines and Standards</a></li>
+				<li><a href="ethics.html">Ethical Considerations</a></li>
+				<li><a href="resources.html">Additional Resources</a></li>
+			</ul>
+
+			<!-- End NAV -->
+
+			<div id="main" class="vbox">
+				<div id="content" class="hbox">
+					<div id="article" class="vbox comfortable scroll fixed">	
+						
+						<h2>User Experience Evaluation</h2>
+						<h3>Key Points</h3>
+						<ul>
+							<li>Understand users’ reaction to the products.</li>
+							<li>Identify users' pleasure and satisfaction when using new products.</li>
+						</ul>
+
+						<h3>What are they and Why use them</h3>
+						<p>User Experience (UX) evaluation may appear similar to a usability study; the difference is that a usability study focuses on effectiveness and efficiency whereas a UX evaluation evaluates the user perspective of the interaction with a product over time. From this we are able to understand the nuances of the product and the users’ satisfaction with it. Therefore, UX builds on usability.</p>
+						<p>When conducting a UX evaluation you are exploring the following questions; How enjoyable is the product to use? Is it helpful? Is it a pleasure to use? Is it engaging? Does it look good? Does it add value to the lives of the users? Through finding answers to these questions, you will be able to determine whether the product is something that users will want to use or further refinement in the design is required.</p>
+
+						<h3>When to use them</h3>
+						<p>As UX evaluation builds from usability, so it should be run after you have refined the product through usability testing. Unlike a usability study, a UX evaluation should be run over a set period of time or number of interactions with the product. Depending on the product being developed, these evaluations may take place in a lab setting (e.g., patient monitoring system) or participants may be able to test it at their homes (e.g., blood glucose measuring device). The method used to conduct the UX evaluation should reflect the location where users will be able to assess the product.</p>
+
+						<h3>How to use them</h3>
+						<p>The User Experience Honeycomb is an evaluation tool for UX, see Figure below. The honeycomb enables researchers to ensure that the fundamentals of UX are addressed, which are: useful, usable, desirable, findable, accessible, credible, and valuable (see <a href="http://semanticstudios.com/user_experience_design/">UX Honeycomb</a> for more details on each of these). To understand these needs you will need to adopt a longitudinal data collection technique, that is, something you can leave with your participants to capture their impressions of the product after using it. These investigations should be designed so that as many areas of the honeycomb can be considered and evaluated.</p>
+
+						<img src="images/honeycomb.jpeg" width="50%">
+
+						<p>Longitudinal data collection techniques are designed to capture user’s thoughts, feelings, and actions when using the product. Typical modes of collecting this data include diary studies, card sorting, interviews, or surveys. Depending on the product, users, and timeframe, each of these modes have their pros and cons. Diary studies allow the users to record their own thoughts (either written or voice recording) and take photos (if able) of interactions they want to share. Card sorting activities vary, but typically include a set of predefined cards that a user can arrange in a prescribed way to provide insights. Interviews and surveys are classic means for researchers to gain insights. Within healthcare, set surveys may be the easiest method to incorporate; however, diary studies, although taking more effort to both prepare and for users to undertake, deliver better insights.</p>
+						<p>In short, longitudinal data study could be structured as:</p>
+
+						<ul class="points">
+							<li>Use a method that best suits the users and the location where the evaluation can be conducted</li>
+							<li>Ensure the method allows users to capture as many aspects of the UX honeycomb as possible</li>
+							<li>Provide clear instructions to the users on how you wish them to engage with the method</li>
+							<li>Let the users know the duration of the study, and when or how often you want them to evaluate the product</li>
+							<li>Send gentle reminders to users to record their thoughts, feelings, and actions using the method you have provided</li>
+							<li>At the end of the evaluation thank the user and provide any agreed incentive</li>
+						</ul>
+
+						<h3>Pros</h3>
+						<p>Identify users’ desire to use the device; highlight key areas that need improvement.</p>
+
+						<h3>Cons</h3>
+						<p>Some users may give poor feedback, UX is subjective, and over time users may ‘go through the motions’ of providing information. Typically, a large data set and depending on the method used may require transcribing, which is time consuming.</p>
+
+						<h3>Points to ponder</h3>
+						<ul class="points">
+							<li>Under what conditions will this product be evaluated?</li>
+							<li>Does my method allow me to fully understand all facets of UX?</li>
+							<li>How long does the evaluation need to run for?</li>
+							<li>How many users do you need to understand the UX?</li>
+						</ul>
+						    
+					</div>
+
+					<div id="sidebar" class="pages">
+						<h3>Resources</h3>
+						<hr>
+						<p>For examples on how user experience has shaped design, <a href="https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/user-experience-and-experience-design">click here</a> (25 min read).</p>
+					</div>
+				</div>
+
+				<div id="footer" class="hbox fixed">
+					<div class="spacer"></div>
+					<a id="logo" href="http://www.fast-healthcare.org.uk/"><img src="images/fasts_logo.png"/></a>
+					<a id="logo" href="https://www.ucl.ac.uk/interventional-surgical-sciences/"><img src="images/WEISS_logo.jpg"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- End Content -->
+
+    <!-- Begin Scripts -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="js/default.js"></script>
+
+</body>
+</html>

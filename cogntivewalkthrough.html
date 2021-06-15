@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Human Factors for Healthcare Engineers</title>
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta charset="UTF-8">
+    
+    <link type="image/x-icon" href="images/HF4HC_icon.png" rel="shortcut icon">
+    <link type="text/css" href="css/styles.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700" rel="stylesheet">
+</head>
+
+<body class="">
+
+    <!-- Root Wrapper -->
+    
+    <div id="root" class="vbox fixed">
+
+      <!-- Header -->
+
+      	<div id="header" class="hbox valign fixed">
+          
+			<div id="brand" class="hbox fixed">
+				<a id="logo" href="index.html"><img src="images/HF4HC_logo.png"/></a>
+			</div>
+
+<!-- 			<div class="main_nav hbox fixed">
+				<a>Human Factors</a>
+				<a>Resources</a>
+				<a>Product Roadmap</a>
+			</div> -->
+
+			<div class="spacer"></div>
+      
+			<div class="sub_nav hbox fixed">
+				<a href="about.html">About Us</a>
+				<a href="acknowledgements.html">Acknowledgements</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+  
+      <!-- End Header -->
+      
+	  <!-- Start Content -->		    	
+		<div id="inner" class="hbox">
+
+			<!-- Start NAV -->
+
+			<ul id="left" class="vbox scroll ">
+				<li><a href="index.html">Introduction to Human Factors</a></li>
+				<li><a href="incorp.html">Incorporating Human Factors</a></li>
+				<li onclick="navigation('poordesign')"><a>Examples of Poor Design</a>
+					<ul id="poordesign" class="sub-menu">
+						<li><a href="poordesign.html">Overview</a></li>
+						<li><a href="infusionpump.html">Infusion Pumps</a></li>
+						<li><a href="therac25.html">Therac-25</a></li>
+						<li><a href="davinci.html">da Vinci Robot</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('methods')"><a>Understanding user needs</a>
+					<ul id="methods" class="sub-menu">
+						<li><a href="userneeds.html">Overview</a></li>
+						<li><a href="focusgroups.html">Focus Groups</a></li>
+						<li><a href="interviews.html">Interviews</a></li>
+						<li><a href="observations.html">Observations</a></li>
+						<li><a href="contextinquiry.html">Contextual Inquiry</a></li>
+						<li><a href="taskanalysis.html">Task Analysis</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('design')"><a>Design Stage</a>
+					<ul id="design" class="sub-menu">
+						<li><a href="designstage.html">Overview</a></li>
+						<li><a href="workshops.html">Workshops (Co-design)</a></li>
+						<li><a href="prototypes.html">Prototypes</a></li>
+						<li><a href="personas.html">Personas</a></li>
+						<li><a href="scenarios.html">Scenarios</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('test')"><a>Test and Refine</a>
+					<ul id="test" class="sub-menu" style="display: block;">
+						<li><a href="testrefine.html">Overview</a></li>
+						<li><a href="cogntivewalkthrough.html" class="active">Cognitive Walkthrough</a></li>
+						<li><a href="heuristic.html">Heuristic Evaluation</a></li>
+						<li><a href="usability.html">Usability Study</a></li>
+						<li><a href="userexperience.html">User Experience Evaluation</a></li>
+						<li><a href="inthewild.html">'In the Wild' testing</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('analysis')"><a>Data Analysis</a>
+					<ul id="analysis" class="sub-menu">
+						<li><a href="analysis.html">Overview</a></li>
+						<li><a href="qualitative.html">Qualitative Analysis</a></li>
+					</ul>
+				</li>
+				<li><a href="standards.html">Regulatory Guidelines and Standards</a></li>
+				<li><a href="ethics.html">Ethical Considerations</a></li>
+				<li><a href="resources.html">Additional Resources</a></li>
+			</ul>
+
+			<!-- End NAV -->
+
+			<div id="main" class="vbox">
+				<div id="content" class="hbox">
+					<div id="article" class="vbox comfortable scroll fixed">	
+						
+						<h2>Cognitive Walkthrough</h2>
+						<h3>Key Points</h3>
+						<ul>
+							<li>Conducted by a human factors expert to review the system to identify potential use errors.</li>
+						</ul>
+
+						<h3>What are they and Why use them</h3>
+						<p>A cognitive walkthrough is an evaluation method to identify how easily tasks can be performed by users. However, unlike usability studies, a cognitive walkthrough is best conducted by a human factors expert rather than observing participants perform tasks. If the person conducting the cognitive walkthrough is too familiar with the product, they may potentially miss significant issues.   Essentially, it requires the evaluator to put themselves in the shoes of the potential user. Using personas will greatly assist to achieve this.</p>
+
+						<h3>When to use them</h3>
+						<p>The cognitive walkthrough is best conducted during the early design stage, prior to user testing and can even be conducted based on sketches of the product. This allows the expert to identify key issues that still require attention before conducting formal testing with participants.</p>
+
+						<h3>How to use them</h3>
+						<p>A set of tasks for the user to examine are required to conduct a cognitive walkthrough. The tasks can be grouped to focus on a specific high-level task. For example: setting up the product, using it to capture information, retrieving information from it, etc. For each task, the evaluator works through the steps of the task, asking four questions (see below) about the likely user thinking for that step and the feedback they receive from the product. The evaluator identifies potential user difficulties and errors through this process.</p>
+
+						<h3>Pros</h3>
+						<p>Cost effective, quick to run, and no recruitment required for the process.</p>
+
+						<h3>Cons</h3>
+						<p>Sometimes difficult to put yourself in the shoes of your participants.</p>
+
+						<h3>Points to ponder <i>(the four questions)</i></h3>
+						<ul class="points">
+							<li>Will the user try and achieve the right outcome based on the information you have?</li>
+							<li>Is it apparent what the next step is based on the last action?</li>
+							<li>Is there a correlation between the action you are performing and the outcome you expect to achieve?</li>
+							<li>When a correct action is taken, is there some indication that the user is heading towards achieving their goal?</li>
+						</ul>
+						    
+					</div>
+
+					<div id="sidebar" class="pages">
+						<h3>Resources</h3>
+						<hr>
+						<p>For further understanding on conducting a cognitive walkthrough, <a href="https://www.interaction-design.org/literature/article/how-to-conduct-a-cognitive-walkthrough">click here</a> (10 min read time).</p>
+					</div>
+				</div>
+
+				<div id="footer" class="hbox fixed">
+					<div class="spacer"></div>
+					<a id="logo" href="http://www.fast-healthcare.org.uk/"><img src="images/fasts_logo.png"/></a>
+					<a id="logo" href="https://www.ucl.ac.uk/interventional-surgical-sciences/"><img src="images/WEISS_logo.jpg"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- End Content -->
+
+    <!-- Begin Scripts -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="js/default.js"></script>
+
+</body>
+</html>

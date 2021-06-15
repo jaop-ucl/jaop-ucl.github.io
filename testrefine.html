@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Human Factors for Healthcare Engineers</title>
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta charset="UTF-8">
+    
+    <link type="image/x-icon" href="images/HF4HC_icon.png" rel="shortcut icon">
+    <link type="text/css" href="css/styles.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700" rel="stylesheet">
+</head>
+
+<body class="">
+
+    <!-- Root Wrapper -->
+    
+    <div id="root" class="vbox fixed">
+
+      <!-- Header -->
+
+      	<div id="header" class="hbox valign fixed">
+          
+			<div id="brand" class="hbox fixed">
+				<a id="logo" href="index.html"><img src="images/HF4HC_logo.png"/></a>
+			</div>
+
+<!-- 			<div class="main_nav hbox fixed">
+				<a>Human Factors</a>
+				<a>Resources</a>
+				<a>Product Roadmap</a>
+			</div> -->
+
+			<div class="spacer"></div>
+      
+			<div class="sub_nav hbox fixed">
+				<a href="about.html">About Us</a>
+				<a href="acknowledgements.html">Acknowledgements</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+  
+      <!-- End Header -->
+      
+	  <!-- Start Content -->		    	
+		<div id="inner" class="hbox">
+
+			<!-- Start NAV -->
+
+			<ul id="left" class="vbox scroll ">
+				<li><a href="index.html">Introduction to Human Factors</a></li>
+				<li><a href="incorp.html">Incorporating Human Factors</a></li>
+				<li onclick="navigation('poordesign')"><a>Examples of Poor Design</a>
+					<ul id="poordesign" class="sub-menu">
+						<li><a href="poordesign.html">Overview</a></li>
+						<li><a href="infusionpump.html">Infusion Pumps</a></li>
+						<li><a href="therac25.html">Therac-25</a></li>
+						<li><a href="davinci.html">da Vinci Robot</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('methods')"><a>Understanding user needs</a>
+					<ul id="methods" class="sub-menu">
+						<li><a href="userneeds.html">Overview</a></li>
+						<li><a href="focusgroups.html">Focus Groups</a></li>
+						<li><a href="interviews.html">Interviews</a></li>
+						<li><a href="observations.html">Observations</a></li>
+						<li><a href="contextinquiry.html">Contextual Inquiry</a></li>
+						<li><a href="taskanalysis.html">Task Analysis</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('design')"><a>Design Stage</a>
+					<ul id="design" class="sub-menu">
+						<li><a href="designstage.html">Overview</a></li>
+						<li><a href="workshops.html">Workshops (Co-design)</a></li>
+						<li><a href="prototypes.html">Prototypes</a></li>
+						<li><a href="personas.html">Personas</a></li>
+						<li><a href="scenarios.html">Scenarios</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('test')"><a>Test and Refine</a>
+					<ul id="test" class="sub-menu" style="display: block;">
+						<li><a href="testrefine.html" class="active">Overview</a></li>
+						<li><a href="cogntivewalkthrough.html">Cognitive Walkthrough</a></li>
+						<li><a href="heuristic.html">Heuristic Evaluation</a></li>
+						<li><a href="usability.html">Usability Study</a></li>
+						<li><a href="userexperience.html">User Experience Evaluation</a></li>
+						<li><a href="inthewild.html">'In the Wild' testing</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('analysis')"><a>Data Analysis</a>
+					<ul id="analysis" class="sub-menu">
+						<li><a href="analysis.html">Overview</a></li>
+						<li><a href="qualitative.html">Qualitative Analysis</a></li>
+					</ul>
+				</li>
+				<li><a href="standards.html">Regulatory Guidelines and Standards</a></li>
+				<li><a href="ethics.html">Ethical Considerations</a></li>
+				<li><a href="resources.html">Additional Resources</a></li>
+			</ul>
+
+			<!-- End NAV -->
+
+			<div id="main" class="vbox">
+				<div id="content" class="hbox">
+					<div id="article" class="vbox comfortable scroll fixed">	
+						
+						<h2>Test and Refine</h2>
+						<p>Once a product has been prototyped it is important that it is rigorously tested and evaluated prior to going into production to ensure that it can accomplish the task it is designed to perform. This process is a refining process, as in most cases, multiple versions need to be developed to improve performance, reliability, and repeatability. Within this phase there are a number of human factors methods that can help identify potential errors and usability concerns, including cognitive walkthroughs, heuristic evaluations, usability studies, user experience evaluations, and ‘in the wild’ testing. Cognitive walkthroughs and heuristic evaluations are expert evaluations, meaning, they are conducted by human factors experts within the domain of healthcare to provide feedback and solutions for potential user errors. Usability, user experience, and ‘in the wild’ evaluations allow for evaluation on the user’s ability to perform tasks and understand if the healthcare product is usable, useful, and safe to the user as well as satisfying. The test and refine stage is an iterative phase, allowing for changes in the design to continue until the new technology meets the user’s needs.</p>
+						<p>In this section each of the test and refine methods are expanded upon, highlighting what the method is, and why, when, and how they can be used.</p>
+					</div>
+
+					<div id="sidebar" class="pages">
+
+					</div>
+				</div>
+
+				<div id="footer" class="hbox fixed">
+					<div class="spacer"></div>
+					<a id="logo" href="http://www.fast-healthcare.org.uk/"><img src="images/fasts_logo.png"/></a>
+					<a id="logo" href="https://www.ucl.ac.uk/interventional-surgical-sciences/"><img src="images/WEISS_logo.jpg"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- End Content -->
+
+    <!-- Begin Scripts -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="js/default.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Human Factors for Healthcare Engineers</title>
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta charset="UTF-8">
+    
+    <link type="image/x-icon" href="images/HF4HC_icon.png" rel="shortcut icon">
+    <link type="text/css" href="css/styles.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700" rel="stylesheet">
+</head>
+
+<body class="">
+
+    <!-- Root Wrapper -->
+    
+    <div id="root" class="vbox fixed">
+
+      <!-- Header -->
+
+      	<div id="header" class="hbox valign fixed">
+          
+			<div id="brand" class="hbox fixed">
+				<a id="logo" href="index.html"><img src="images/HF4HC_logo.png"/></a>
+			</div>
+
+<!-- 			<div class="main_nav hbox fixed">
+				<a>Human Factors</a>
+				<a>Resources</a>
+				<a>Product Roadmap</a>
+			</div> -->
+
+			<div class="spacer"></div>
+      
+			<div class="sub_nav hbox fixed">
+				<a href="about.html">About Us</a>
+				<a href="acknowledgements.html">Acknowledgements</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+  
+      <!-- End Header -->
+      
+	  <!-- Start Content -->		    	
+		<div id="inner" class="hbox">
+
+			<!-- Start NAV -->
+
+			<ul id="left" class="vbox scroll ">
+				<li><a href="index.html">Introduction to Human Factors</a></li>
+				<li><a href="incorp.html">Incorporating Human Factors</a></li>
+				<li onclick="navigation('poordesign')"><a>Examples of Poor Design</a>
+					<ul id="poordesign" class="sub-menu" style="display: block;">
+						<li><a href="poordesign.html">Overview</a></li>
+						<li><a href="infusionpump.html" class="active">Infusion Pumps</a></li>
+						<li><a href="therac25.html">Therac-25</a></li>
+						<li><a href="davinci.html">da Vinci Robot</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('methods')"><a>Understanding user needs</a>
+					<ul id="methods" class="sub-menu">
+						<li><a href="userneeds.html">Overview</a></li>
+						<li><a href="focusgroups.html">Focus Groups</a></li>
+						<li><a href="interviews.html">Interviews</a></li>
+						<li><a href="observations.html">Observations</a></li>
+						<li><a href="contextinquiry.html">Contextual Inquiry</a></li>
+						<li><a href="taskanalysis.html">Task Analysis</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('design')"><a>Design Stage</a>
+					<ul id="design" class="sub-menu">
+						<li><a href="designstage.html">Overview</a></li>
+						<li><a href="workshops.html">Workshops (Co-design)</a></li>
+						<li><a href="prototypes.html">Prototypes</a></li>
+						<li><a href="personas.html">Personas</a></li>
+						<li><a href="scenarios.html">Scenarios</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('test')"><a>Test and Refine</a>
+					<ul id="test" class="sub-menu">
+						<li><a href="testrefine.html">Overview</a></li>
+						<li><a href="cogntivewalkthrough.html">Cognitive Walkthrough</a></li>
+						<li><a href="heuristic.html">Heuristic Evaluation</a></li>
+						<li><a href="usability.html">Usability Study</a></li>
+						<li><a href="userexperience.html">User Experience Evaluation</a></li>
+						<li><a href="inthewild.html">'In the Wild' testing</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('analysis')"><a>Data Analysis</a>
+					<ul id="analysis" class="sub-menu">
+						<li><a href="analysis.html">Overview</a></li>
+						<li><a href="qualitative.html">Qualitative Analysis</a></li>
+					</ul>
+				</li>
+				<li><a href="standards.html">Regulatory Guidelines and Standards</a></li>
+				<li><a href="ethics.html">Ethical Considerations</a></li>
+				<li><a href="resources.html">Additional Resources</a></li>
+			</ul>
+
+			<!-- End NAV -->
+
+			<!-- Start bulk Content -->
+
+			<div id="main" class="vbox">
+				<div id="content" class="hbox">
+					<div id="article" class="vbox comfortable scroll fixed">	
+						
+						<h2>Example of the infusion pump</h2>
+
+						<p>In 2006 Denise Melanson, who was receiving chemotherapy treatment, went to hospital to get more medication for her infusion pump. She subsequently died from an overdose of fluorouracil and cisplatin, a drug used to treat her tumour, because the quantity to deliver per hour was miscalculated by not taking into account the number of hours per day, so instead of receiving 1.2ml per hour, she received 28.8ml per hour. She returned to the hospital four hours later with an empty medication bag, instead of four days later, but there was no way to mitigate the already administered lethal dose of fluorouracil and cisplatin. A <a href="https://www.cbc.ca/news/science/fatal-chemo-overdose-prompts-alberta-reforms-1.650904">local news article</a> reported that investigators had concluded that the fatality was a result of an overdose of fluorouracil, poor design of the chemotherapy protocol, and the inability to rectify the situation after the lethal dose was administered. However, a <a href="https://www.ismp-canada.org/download/reports/FluorouracilIncidentMay2007.pdf">human factors investigation</a> (pg 57-63) replicated the scenario with five nurses from the same hospital using the same pump; three entered incorrect data, all of them were confused by the setup or selection of mL/hr, two were confused by the programming of the device, and three were confused with the placement of the decimal point. It was also discovered that there had been eight similar incidents prior to Denis Melanson’s, but the lessons learned from these incidents were either difficult to find or unavailable resulting in them not having a global impact as per this investigation. A human factors study should have been carried out prior to the device being approved or marketed, and the device and/or clinical protocol should have been designed to minimise the risk.</p>
+					</div>
+
+					<div id="sidebar" class="pages">
+
+					</div>
+				</div>
+
+				<div id="footer" class="hbox fixed">
+					<div class="spacer"></div>
+					<a id="logo" href="http://www.fast-healthcare.org.uk/"><img src="images/fasts_logo.png"/></a>
+					<a id="logo" href="https://www.ucl.ac.uk/interventional-surgical-sciences/"><img src="images/WEISS_logo.jpg"/></a>
+				</div>
+			</div>
+
+			<!-- End bulk Content -->
+
+		</div>
+	</div>
+    <!-- End Content -->
+
+    <!-- Begin Scripts -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="js/default.js"></script>
+
+</body>
+</html>

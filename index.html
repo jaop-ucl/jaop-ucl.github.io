@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Human Factors for Healthcare Engineers</title>
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta charset="UTF-8">
+    
+    <link type="image/x-icon" href="images/HF4HC_icon.png" rel="shortcut icon">
+    <link type="text/css" href="css/styles.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700" rel="stylesheet">
+</head>
+
+<body class="">
+
+    <!-- Root Wrapper -->
+    
+    <div id="root" class="vbox fixed">
+
+      <!-- Header -->
+
+      	<div id="header" class="hbox valign fixed">
+          
+			<div id="brand" class="hbox fixed">
+				<a id="logo" href="index.html"><img src="images/HF4HC_logo.png"/></a>
+			</div>
+
+<!-- 			<div class="main_nav hbox fixed">
+				<a>Human Factors</a>
+				<a>Resources</a>
+				<a>Product Roadmap</a>
+			</div> -->
+
+			<div class="spacer"></div>
+      
+			<div class="sub_nav hbox fixed">
+				<a href="about.html">About Us</a>
+				<a href="acknowledgements.html">Acknowledgements</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+  
+      <!-- End Header -->
+      
+	  <!-- Start Content -->		    	
+		<div id="inner" class="hbox">
+
+			<!-- Start NAV -->
+
+			<ul id="left" class="vbox scroll ">
+				<li><a href="index.html" class="active">Introduction to Human Factors</a></li>
+				<li><a href="incorp.html">Incorporating Human Factors</a></li>
+				<li onclick="navigation('poordesign')"><a>Examples of Poor Design</a>
+					<ul id="poordesign" class="sub-menu">
+						<li><a href="infusionpump.html">Infusion Pumps</a></li>
+						<li><a href="therac25.html">Therac-25</a></li>
+						<li><a href="davinci.html">da Vinci Robot</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('methods')"><a>Understanding user needs</a>
+					<ul id="methods" class="sub-menu">
+						<li><a href="userneeds.html">Overview</a></li>
+						<li><a href="focusgroups.html">Focus Groups</a></li>
+						<li><a href="interviews.html">Interviews</a></li>
+						<li><a href="observations.html">Observations</a></li>
+						<li><a href="contextinquiry.html">Contextual Inquiry</a></li>
+						<li><a href="taskanalysis.html">Task Analysis</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('design')"><a>Design Stage</a>
+					<ul id="design" class="sub-menu">
+						<li><a href="designstage.html">Overview</a></li>
+						<li><a href="workshops.html">Workshops (Co-design)</a></li>
+						<li><a href="prototypes.html">Prototypes</a></li>
+						<li><a href="personas.html">Personas</a></li>
+						<li><a href="scenarios.html">Scenarios</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('test')"><a>Test and Refine</a>
+					<ul id="test" class="sub-menu">
+						<li><a href="testrefine.html">Overview</a></li>
+						<li><a href="cogntivewalkthrough.html">Cognitive Walkthrough</a></li>
+						<li><a href="heuristic.html">Heuristic Evaluation</a></li>
+						<li><a href="usability.html">Usability Study</a></li>
+						<li><a href="userexperience.html">User Experience Evaluation</a></li>
+						<li><a href="inthewild.html">'In the Wild' testing</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('analysis')"><a>Data Analysis</a>
+					<ul id="analysis" class="sub-menu">
+						<li><a href="analysis.html">Overview</a></li>
+						<li><a href="qualitative.html">Qualitative Analysis</a></li>
+					</ul>
+				</li>
+				<li><a href="standards.html">Regulatory Guidelines and Standards</a></li>
+				<li><a href="ethics.html">Ethical Considerations</a></li>
+				<li><a href="resources.html">Additional Resources</a></li>
+			</ul>
+
+			<!-- End NAV -->
+
+			<!-- Start bulk Content -->
+
+			<div id="main" class="vbox">
+				<div id="content" class="hbox">
+					<div id="article" class="vbox comfortable scroll fixed">	
+						
+						<h2>Introduction</h2>
+
+						<p>This resource is to assist engineers when developing new technology for healthcare to ensure human factors are incorporated into their design. Including human factors into the product development ensures that usability standards are addressed, the product will be more useful for clinical teams and fit within the intended context, and most importantly, the result will be better patient outcomes.</p>
+
+						<h3>How does Human Factors research fit within Engineering Research?</h3>
+						<p>Engineering and Human Factors research go hand in hand. Engineering deals with the practicality of designing new technology, whereas Human Factors deals with understanding how people will interact with and use new technology. Engineering requirements and user needs, although separate issues, need to be addressed concurrently as they impact each other. The engineering factors investigate how we develop a product or service to solve a problem. Whereas, human factors investigate usability and utility. Usability informs us whether the user is able to perform the task effectively, efficiently, safely, it is easy to learn, and easy to remember how to use all while generating a good experience of using the new technology. Utility informs us whether the product or service provides the correct functionality.</p>
+						<p>To assist in ensuring that health technologies are designed so that they are effective, efficient, and satisfying for users there are three usability standards: ANSI HE75 (Human Factors Engineering – Design of Medical Devices), IEC 60601-1-6 (General requirements for basic safety and essential performance), and IEC 62366 (Application of usability engineering to medical devices). Applying these standards should ensure that the product is used as intended, and that potential patient and user safety risks are properly identified and mitigated. Also, incorporating human factors into the design process ensures that these standards are addressed during development and not as an afterthought too late in the product development, which may result in high cost to change the product in order to meet these standards or developing a product that is not useful.</p>
+						<p>To design technology that provides the user with a product or service that is beneficial to them it is important that we understand the needs and practices of the user in the context where that product or service will be used. There are a number of classic Human Factors methods we can apply to achieve this in a healthcare setting: e.g., focus groups, interviews, observations, task analysis, and contextual inquiries. Once the user needs are understood, the technology can be designed to ensure it is delivering a good solution to the users’ problem, which can be conducted in collaboration with users through workshops, user investigations, informal scenarios, and focus groups to develop and evaluate prototypes. In some cases, foundational engineering research is needed to develop innovative technologies that better address the problem. Once developed to a suitable level, the evaluation of the technology can commence to ensure that the product or service is usable, useful, and safe to the user, including cognitive walkthroughs, heuristic evaluation, usability studies, and user experience (UX) evaluations. These evaluations will indicate whether the new technology has successfully met the users’ needs or whether further iterations of design and evaluation are required. Finally, when the system has undergone basic evaluation testing and gone through as many iterations of design as are required to deliver a safe and usable product, it can be tested ‘In the Wild’, that is to say, evaluated by users in the environment it was designed for.</p>
+						<p>The methods and the evaluations can produce both quantitative and qualitative results. Quantitative results indicate whether the technology achieves its intended goal, and provide an indication of utility; whereas qualitative results indicate whether the technology is engaging, effective, efficient, safe, and satisfying from the user’s perspective. As quantitative analysis is widely used in engineering it is not addressed on this website; rather, we focus on methods for gathering and analysing qualitative data, which are rarely used in engineering.</p>
+					</div>
+
+					<div id="sidebar" class="pages">
+
+					</div>
+				</div>
+
+				<div id="footer" class="hbox fixed">
+					<div class="spacer"></div>
+					<a id="logo" href="http://www.fast-healthcare.org.uk/"><img src="images/fasts_logo.png"/></a>
+					<a id="logo" href="https://www.ucl.ac.uk/interventional-surgical-sciences/"><img src="images/WEISS_logo.jpg"/></a>
+				</div>
+			</div>
+
+			<!-- End bulk Content -->
+
+		</div>
+	</div>
+    <!-- End Content -->
+
+    <!-- Begin Scripts -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="js/default.js"></script>
+
+</body>
+</html>

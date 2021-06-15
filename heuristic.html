@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Human Factors for Healthcare Engineers</title>
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta charset="UTF-8">
+    
+    <link type="image/x-icon" href="images/HF4HC_icon.png" rel="shortcut icon">
+    <link type="text/css" href="css/styles.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700" rel="stylesheet">
+</head>
+
+<body class="">
+
+    <!-- Root Wrapper -->
+    
+    <div id="root" class="vbox fixed">
+
+      <!-- Header -->
+
+      	<div id="header" class="hbox valign fixed">
+          
+			<div id="brand" class="hbox fixed">
+				<a id="logo" href="index.html"><img src="images/HF4HC_logo.png"/></a>
+			</div>
+
+<!-- 			<div class="main_nav hbox fixed">
+				<a>Human Factors</a>
+				<a>Resources</a>
+				<a>Product Roadmap</a>
+			</div> -->
+
+			<div class="spacer"></div>
+      
+			<div class="sub_nav hbox fixed">
+				<a href="about.html">About Us</a>
+				<a href="acknowledgements.html">Acknowledgements</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+  
+      <!-- End Header -->
+      
+	  <!-- Start Content -->		    	
+		<div id="inner" class="hbox">
+
+			<!-- Start NAV -->
+
+			<ul id="left" class="vbox scroll ">
+				<li><a href="index.html">Introduction to Human Factors</a></li>
+				<li><a href="incorp.html">Incorporating Human Factors</a></li>
+				<li onclick="navigation('poordesign')"><a>Examples of Poor Design</a>
+					<ul id="poordesign" class="sub-menu">
+						<li><a href="poordesign.html">Overview</a></li>
+						<li><a href="infusionpump.html">Infusion Pumps</a></li>
+						<li><a href="therac25.html">Therac-25</a></li>
+						<li><a href="davinci.html">da Vinci Robot</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('methods')"><a>Understanding user needs</a>
+					<ul id="methods" class="sub-menu">
+						<li><a href="userneeds.html">Overview</a></li>
+						<li><a href="focusgroups.html">Focus Groups</a></li>
+						<li><a href="interviews.html">Interviews</a></li>
+						<li><a href="observations.html">Observations</a></li>
+						<li><a href="contextinquiry.html">Contextual Inquiry</a></li>
+						<li><a href="taskanalysis.html">Task Analysis</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('design')"><a>Design Stage</a>
+					<ul id="design" class="sub-menu">
+						<li><a href="designstage.html">Overview</a></li>
+						<li><a href="workshops.html">Workshops (Co-design)</a></li>
+						<li><a href="prototypes.html">Prototypes</a></li>
+						<li><a href="personas.html">Personas</a></li>
+						<li><a href="scenarios.html">Scenarios</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('test')"><a>Test and Refine</a>
+					<ul id="test" class="sub-menu" style="display: block;">
+						<li><a href="testrefine.html">Overview</a></li>
+						<li><a href="cogntivewalkthrough.html">Cognitive Walkthrough</a></li>
+						<li><a href="heuristic.html" class="active">Heuristic Evaluation</a></li>
+						<li><a href="usability.html">Usability Study</a></li>
+						<li><a href="userexperience.html">User Experience Evaluation</a></li>
+						<li><a href="inthewild.html">'In the Wild' testing</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('analysis')"><a>Data Analysis</a>
+					<ul id="analysis" class="sub-menu">
+						<li><a href="analysis.html">Overview</a></li>
+						<li><a href="qualitative.html">Qualitative Analysis</a></li>
+					</ul>
+				</li>
+				<li><a href="standards.html">Regulatory Guidelines and Standards</a></li>
+				<li><a href="ethics.html">Ethical Considerations</a></li>
+				<li><a href="resources.html">Additional Resources</a></li>
+			</ul>
+
+			<!-- End NAV -->
+
+			<div id="main" class="vbox">
+				<div id="content" class="hbox">
+					<div id="article" class="vbox comfortable scroll fixed">	
+						
+						<h2>Heuristic Evaluation</h2>
+						<h3>Key Point</h3>
+						<ul>
+							<li>An evaluation conducted by human factors experts to identify potential usability issues that intended users may encounter when interacting with a product’s user interface.</li>
+						</ul>
+
+						<h3>What are they and Why use them</h3>
+						<p>Heuristic evaluation is a method that allows human factor experts to measure the usability of a user interface based on a predefined list of rules of thumb (the heuristics). There are a number of heuristics that can be used to evaluate a user interface including <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">Nielsen’s</a>, <a href="http://www.cs.umd.edu/~ben/goldenrules.html">Shneiderman’s</a>, <a href="https://en.wikipedia.org/wiki/Heuristic_evaluation#Gerhardt-Powals.E2.80.99_cognitive_engineering_principles">Gerhardt-Powals’</a>, and <a href="http://www0.cs.ucl.ac.uk/staff/i.connell/DocsPDF/PrinciplesSet.pdf">Connell and Hammond’s<?. The heuristics have been designed to cover the areas that users typically have the most difficulty with; evaluating the product’s user interface against a set of known areas of concern during the design phase can help improve the user’s experience with the product. Nielsen’s 10 usability heuristics are a good guideline when developing user interfaces and cover: visibility of the system; match between system and the real world; user control and freedom; consistency and standards; error prevention; recognition rather than recall; flexibility and efficiency of use; aesthetic and minimalist design; recognise, diagnose, and recover from errors; and help and documentation. More detail on these 10 heuristics can be found on the <a href="https://www.nngroup.com/articles/ten-usability-heuristics/">NN/g website</a> (10 min read).</p>
+
+						<h3>When to use them</h3>
+						<p>Like <a href="cogntivewalkthrough.html">Cognitive Walkthrough</a>, a heuristic evaluation can be conducted at multiple times during the course of development, and as early as sketch prototypes of the user interface. This allows obvious issues to be discovered from low-fidelity prototypes to more nuanced issues that can only be found with a high-fidelity user interface.</p>
+
+						<h3>How to use them</h3>
+						<p>A heuristic evaluation can be conducted using the following seven steps.</p>
+
+						<ul class="numbers">
+							<li>Decide on which set of heuristics best suits your user interface. Additional heuristics may also be included, depending on the product being developed.</li>
+							<li>Work with healthcare usability experts and not potential users. It is recommended that multiple experts, ideally five, are used to ensure that all aspects of the user interface are properly evaluated.</li>
+							<li>Briefing session. Ensure that those evaluating the user interface know what is required of them and which aspects of the user interface you want them to evaluate. The information provided to each evaluator should be the same so as not to introduce bias into the evaluation.</li>
+							<li>Begin the first phase. This phase is exploratory, allowing the evaluators time to understand the interactions and scope of the product. Then, as experts, they can decide on which elements of the heuristic they want to focus on. Ideally each evaluator will work independently of the other evaluators during this phase.</li>
+							<li>Begin the second phase. This phase is for the evaluators to apply the heuristics to the user interface they are evaluating.</li>
+							<li>Record the findings. This can be done in one of two ways; firstly, an observer may be used to take notes and possibly record the interactions of the evaluator. Secondly, the evaluator can be left to make their own notes. Having an observer present requires coordination between parties; however, an observer reduces the time required to analyse the data as this can be done on the fly with no need to interpret the evaluator’s decisions.</li>
+							<li>Debriefing session. This time is for the evaluators to come together and synthesise their findings to create a complete list of problems. This phase also demonstrates why using usability experts, rather than potential users, is important as the evaluators are not only asked to define usability issues, but also recommendations on how to address the usability concerns. The report should list all identified problems, explain why they are an issue, depict the heuristic that each problem relates too, and provide suggestions to improve the usability of the product.</li>
+						</ul>
+
+						<h3>Pros</h3>
+						<p>Evaluators have the freedom to focus on heuristics they are familiar with. The evaluation can be conducted at the early stages of development. Not only are usability concerns identified, but potential solutions are also provided from healthcare usability experts.</p>
+
+						<h3>Cons</h3>
+						<p>It can be difficult to find enough domain specific usability experts to evaluate and cover all areas of the heuristics. Some evaluators, who may not be familiar with healthcare, may overshoot the mark and identify issues that would not usability issues for the intended users (e.g., terminology).</p>
+
+						<h3>Points to ponder</h3>
+						<ul class="points">
+							<li>What aspect of the user interface should be evaluated?</li>
+							<li>Do the heuristics you are using cover all elements of usability for your user interface?</li>
+							<li>Are the evaluators familiar with healthcare products and user interfaces?</li>
+							<li>When in the project is the best time to conduct a heuristic evaluation?</li>
+						</ul>
+						    
+					</div>
+
+					<div id="sidebar" class="pages">
+						<h3>Resources</h3>
+						<hr>
+						<p>For further information on understanding heuristic evaluation and additional tips, <a href="https://www.interaction-design.org/literature/topics/heuristic-evaluation">click here</a> (5 min read plus 8 min video). For more details on how to conduct a heuristic evaluation, <a href="https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/">click here</a> (12 min read).</p>
+					</div>
+				</div>
+
+				<div id="footer" class="hbox fixed">
+					<div class="spacer"></div>
+					<a id="logo" href="http://www.fast-healthcare.org.uk/"><img src="images/fasts_logo.png"/></a>
+					<a id="logo" href="https://www.ucl.ac.uk/interventional-surgical-sciences/"><img src="images/WEISS_logo.jpg"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- End Content -->
+
+    <!-- Begin Scripts -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="js/default.js"></script>
+
+</body>
+</html>

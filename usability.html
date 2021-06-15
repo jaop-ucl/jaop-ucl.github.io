@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Human Factors for Healthcare Engineers</title>
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <meta charset="UTF-8">
+    
+    <link type="image/x-icon" href="images/HF4HC_icon.png" rel="shortcut icon">
+    <link type="text/css" href="css/styles.css" rel="stylesheet" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=EB+Garamond:400,500,600,700" rel="stylesheet">
+</head>
+
+<body class="">
+
+    <!-- Root Wrapper -->
+    
+    <div id="root" class="vbox fixed">
+
+      <!-- Header -->
+
+      	<div id="header" class="hbox valign fixed">
+          
+			<div id="brand" class="hbox fixed">
+				<a id="logo" href="index.html"><img src="images/HF4HC_logo.png"/></a>
+			</div>
+
+<!-- 			<div class="main_nav hbox fixed">
+				<a>Human Factors</a>
+				<a>Resources</a>
+				<a>Product Roadmap</a>
+			</div> -->
+
+			<div class="spacer"></div>
+      
+			<div class="sub_nav hbox fixed">
+				<a href="about.html">About Us</a>
+				<a href="acknowledgements.html">Acknowledgements</a>
+				<a href="contact.html">Contact</a>
+			</div>
+		</div>
+  
+      <!-- End Header -->
+      
+	  <!-- Start Content -->		    	
+		<div id="inner" class="hbox">
+
+			<!-- Start NAV -->
+
+			<ul id="left" class="vbox scroll ">
+				<li><a href="index.html">Introduction to Human Factors</a></li>
+				<li><a href="incorp.html">Incorporating Human Factors</a></li>
+				<li onclick="navigation('poordesign')"><a>Examples of Poor Design</a>
+					<ul id="poordesign" class="sub-menu">
+						<li><a href="poordesign.html">Overview</a></li>
+						<li><a href="infusionpump.html">Infusion Pumps</a></li>
+						<li><a href="therac25.html">Therac-25</a></li>
+						<li><a href="davinci.html">da Vinci Robot</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('methods')"><a>Understanding user needs</a>
+					<ul id="methods" class="sub-menu">
+						<li><a href="userneeds.html">Overview</a></li>
+						<li><a href="focusgroups.html">Focus Groups</a></li>
+						<li><a href="interviews.html">Interviews</a></li>
+						<li><a href="observations.html">Observations</a></li>
+						<li><a href="contextinquiry.html">Contextual Inquiry</a></li>
+						<li><a href="taskanalysis.html">Task Analysis</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('design')"><a>Design Stage</a>
+					<ul id="design" class="sub-menu">
+						<li><a href="designstage.html">Overview</a></li>
+						<li><a href="workshops.html">Workshops (Co-design)</a></li>
+						<li><a href="prototypes.html">Prototypes</a></li>
+						<li><a href="personas.html">Personas</a></li>
+						<li><a href="scenarios.html">Scenarios</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('test')"><a>Test and Refine</a>
+					<ul id="test" class="sub-menu" style="display: block;">
+						<li><a href="testrefine.html">Overview</a></li>
+						<li><a href="cogntivewalkthrough.html">Cognitive Walkthrough</a></li>
+						<li><a href="heuristic.html">Heuristic Evaluation</a></li>
+						<li><a href="usability.html" class="active">Usability Study</a></li>
+						<li><a href="userexperience.html">User Experience Evaluation</a></li>
+						<li><a href="inthewild.html">'In the Wild' testing</a></li>
+					</ul>
+				</li>
+				<li onclick="navigation('analysis')"><a>Data Analysis</a>
+					<ul id="analysis" class="sub-menu">
+						<li><a href="analysis.html">Overview</a></li>
+						<li><a href="qualitative.html">Qualitative Analysis</a></li>
+					</ul>
+				</li>
+				<li><a href="standards.html">Regulatory Guidelines and Standards</a></li>
+				<li><a href="ethics.html">Ethical Considerations</a></li>
+				<li><a href="resources.html">Additional Resources</a></li>
+			</ul>
+
+			<!-- End NAV -->
+
+			<div id="main" class="vbox">
+				<div id="content" class="hbox">
+					<div id="article" class="vbox comfortable scroll fixed">	
+						
+						<h2>Usability Study</h2>
+						<h3>Key Points</h3>
+						<ul>
+							<li>Identify problems with your product.</li>
+							<li>Discover opportunities to improve the product.</li>
+						</ul>
+
+						<h3>What are they and Why use them</h3>
+						<p>A usability study evaluates a participant’s ability to use a product or service by observing them. The participants should be representative of those who would normally use the product to determine how effective and efficient it is to use, how easy it was to learn to use the product, and to identify key areas of concerns that participants have with the product. Doing so provides strong evidence of how close the product is to being ready for deployment, and can also identify whether the product is providing the right service to the user to establish its utility. The output of a usability study includes both qualitative (the users’ opinions of the product including likes, dislikes, and desired features) and quantitative results (successful tasks, completion times, error rates, etc.).</p>
+
+						<h3>When to use them</h3>
+						<p>Conducting a usability study early on during the development stage allows for issues to be identified and solutions to resolve them to be applied while the cost of implementation is low. In the image of the <a href="userneeds.html">human factors and engineering process</a>, the usability study is shown as being conducted as soon as a working prototype is developed, and in some cases the prototype can be very low fidelity. For example, if you were developing a health application on a mobile device, a wireframe model (basic sketches of the skeletal framework of a website) evaluation could identify the same issues as a completed app, but the cost to adjust a wireframe is must less than having to reconfigure a completed application. For some products, multiple usability studies might be required to be run at different points along the product development path to evaluate different aspects of the product.</p>
+
+						<h3>How to use them</h3>
+						<p>The format to conduct a usability study should be well structured, and planned well in advance to allow for piloting the study. This ensures you are able to capture the information that is most important for you to progress in the development of the product. A set of tasks you wish the participant to complete should be constructed, as well as a task scenario to accompany each task. The tasks could be independent of each other or sequential in nature; either way, the tasks used should be those that have been identified as being most common, critical or important, or having been previously conducted incorrectly.</p>
+						<p>Understanding the users’ thought processes during the usability test is paramount in identifying points of frustration, misinterpretation, and opportunities for improvement.  To achieve this a ‘Think Aloud’ method is commonly adopted. This method invites the users to provide a continuous verbalisation of their thought processes, detailing what they are thinking, and describing difficulties they may be having when performing the task (e.g., not knowing where to click to submit a form on a website). Thing Aloud can be conducted concurrently with the task or retrospectively. A retrospective Think Aloud may be best suited in particular healthcare settings when observing the user perform an action in a setting where they cannot verbalise their thoughts at the time; such as interacting with a patient or performing a task that requires a significant amount of cognitive effort. In these instances, having the user conduct a retrospective think aloud while watching a video playback can deliver similar results. However, the shorter the time between the recording and the playback the higher the accuracy. Alongside Think Aloud, ‘Probing’ is another technique that can be carried out, where the researcher may ask follow-up questions when they identify something they have not seen before or based on something the participant expresses that they would like to explore further. Again, probing can occur either concurrently with the task or retrospectively.</p>
+						<p>The method by which you wish to capture the users’ actions should also be considered, these could include: sound recording, screen recording, participant recording, action tracking, gesture tracking, gaze tracking, or any combination of these.</p>
+						<p>A usability test should consist of the following basic plan:</p>
+
+						<ul class="numbers">
+							<li>Welcome the participant and explain the purpose of the usability study.</li>
+							<li>Explain to the user how you are going to capture their thought processes (Think Aloud and/or probes, and either concurrent or retrospectively).</li>
+							<li>Remind the participant that you are testing the product not them.</li>
+							<li>Give them a task scenario and have them start the task (take good notes during the study as it is easier to take notes, rather than trying to recall the study at a later time).</li>
+							<li>Continue the tasks until either they are all completed, or the allotted time has ended, as this can also indicate the difficulty of the tasks.</li>
+							<li>At the end of the session you may want to provide an exit survey (such as a <a href="https://www.usability.gov/how-to-and-tools/methods/system-usability-scale.html">System Usability Scale (SUS)</a>), to identify users’ initial perceptions of the device, thank the participant and provide any agreed incentive.</li>
+						</ul>
+
+						<p>It is important when conducting a usability study that as a researcher you remain neutral, that is, do not provide opinions during the study and try to avoid providing assistance to the participant when they are getting frustrated. If the participant decides to give up or asks for assistance you can either end the scenario or provide minimum assistance. The reason you may wish to provide assistance is when the following task scenario is dependent on the participant completing the current task scenario or they are only on step 2 of 10 and you want to assess whether all steps are as hard as this particular step.</p>
+
+						<h3>Pros</h3>
+						<p>Good insight into product usability, engage with representative users, ability to identify issues early on in the product development.</p>
+
+						<h3>Cons</h3>
+						<p>Time consuming, difficult to recruit representative participants, difficult to engage participants in the study.</p>
+
+						<h3>Points to ponder</h3>
+						<ul class="points">
+							<li>Do you have the right type of participants?</li>
+							<li>Are the tasks the participants are carrying out the most critical?</li>
+							<li>How are you going to analyse this information?</li>
+							<li>Have you tested your equipment to know it works correctly and you are capturing the information that is important to you?</li>
+						</ul>
+						    
+					</div>
+
+					<div id="sidebar" class="pages">
+						<h3>Resources</h3>
+						<hr>
+						<p>For additional resources on conducting a usability study, <a href="https://www.nngroup.com/articles/usability-testing-101/">click here</a> (15 min read). For an in depth understanding of usability analysis, its history, why it’s important, and the development of usability evaluation, <a href="https://www.interaction-design.org/literature/book/the-encyclopedia-of-human-computer-interaction-2nd-ed/usability-evaluation">click here</a> (90 min read).</p>
+					</div>
+				</div>
+
+				<div id="footer" class="hbox fixed">
+					<div class="spacer"></div>
+					<a id="logo" href="http://www.fast-healthcare.org.uk/"><img src="images/fasts_logo.png"/></a>
+					<a id="logo" href="https://www.ucl.ac.uk/interventional-surgical-sciences/"><img src="images/WEISS_logo.jpg"/></a>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- End Content -->
+
+    <!-- Begin Scripts -->
+    <script src="https://player.vimeo.com/api/player.js"></script>
+    <script src="js/default.js"></script>
+
+</body>
+</html>
