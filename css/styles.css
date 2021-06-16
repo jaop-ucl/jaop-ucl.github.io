@@ -756,7 +756,7 @@ color: red;
 
 /* CHANGES BASED ON PLATFORM SIZE */ 
 
-*/@media (max-width: 800px) {
+@media (max-width: 800px) {
   #inner #footer a:not(.sales) {
     display: none;
   }
