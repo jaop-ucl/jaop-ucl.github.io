@@ -874,7 +874,7 @@ span.small {
     align-items: center;
     flex-wrap: wrap; }
     #article.test-flex .img img {
-      max-width: 40%; }
+      max-width: 70%; }
     #article.test-flex .img .caption {
       background: #f0f0f0;
       padding: 20px;
