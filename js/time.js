@@ -4,9 +4,9 @@
 // Notice it uses its own constructor instead of Date
 var DateTime = luxon.DateTime
 
-const now = DateTime
+const now = DateTime.now().toUTC()
 // Get the hour from today
-const hour = DateTime.hour
+const hour = DateTime.now().hour
 // Add 7 days to now
 //const weekAdd = DateTime.plus({days: 7});
 
@@ -23,7 +23,7 @@ const conference = DateTime.fromObject({year: 2022, month: 4, day: 27, hour: 14,
 
 //document.getElementById("package-link").innerHTML = "Luxon"
 //document.getElementById("package-link").href = "https://www.skypack.dev/view/luxon"
-document.getElementById('today').innerHTML = DateTime
+document.getElementById('today').innerHTML = now
 document.getElementById('today-hour').innerHTML = hour
 document.getElementById('conference-time').innerHTML = conference
 //document.getElementById('week-add').innerHTML = weekAdd
