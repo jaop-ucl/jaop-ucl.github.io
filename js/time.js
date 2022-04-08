@@ -13,7 +13,7 @@ const hour = DateTime.now().hour
 // Now formatted like "Monday, November 23, 5pm"
 //const dateFormatted = DateTime.toFormat("EEEE',' MMMM d',' ha")
 const conference = DateTime.fromObject({year: 2022, month: 4, day: 27, hour: 14, minute: 05}, { zone: 'Europe/London' }).toFormat("EEEE',' MMMM d',' ha")
-const conferenceutc = DateTime.fromObject({year: 2022, month: 4, day: 27, hour: 14, minute: 05})..toLocaleString(DateTime.DATETIME_FULL)
+const conferenceutc = DateTime.fromObject({year: 2022, month: 4, day: 27, hour: 14, minute: 05}).toLocaleString(DateTime.DATETIME_FULL)
 
 // Date and time on Lord Howe Island
 //const dateTimeLocale = DateTime.setZone('Australia/Lord_Howe')
