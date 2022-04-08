@@ -1,18 +1,20 @@
-import { DateTime } from "https://cdn.skypack.dev/luxon@1.25.0";
+// import { DateTime } from "https://cdn.skypack.dev/luxon@1.25.0";
 
 // Now
 // Notice it uses its own constructor instead of Date
-const now = DateTime.local()
+var DateTime = luxon.DateTime;
+
+//const now = DateTime.luxon()
 // Get the hour from today
-const hour = now.hour
+//const hour = now.hour
 // Add 7 days to now
-const weekAdd = now.plus({days: 7});
+//const weekAdd = now.plus({days: 7});
 
 // Now formatted like "Monday, November 23, 5pm"
-const dateFormatted = now.toFormat("EEEE',' MMMM d',' ha")
+const dateFormatted = DateTime.toFormat("EEEE',' MMMM d',' ha")
 
 // Date and time on Lord Howe Island
-const dateTimeLocale = now.setZone('Australia/Lord_Howe')
+const dateTimeLocale = DateTime.setZone('Australia/Lord_Howe')
 
 //Parsing
 const dateTimeParsing1 = DateTime.fromFormat('Jul 8, 2005', 'MMM d, y').toJSDate()
