@@ -18,8 +18,6 @@ const diffintime = date1.diff(DateTime.now(), ["years", "months", "days", "hours
 const days = Math.floor(diffintime.days)
 const hours = Math.floor(diffintime.hours)
 
-const actualhours = hours - days*24
-
 const timeuntilconoference = 'Days:' + days + ' Hours:' + hours
 
 document.getElementById('today').innerHTML = currenttime
