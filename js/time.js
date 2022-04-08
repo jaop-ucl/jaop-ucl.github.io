@@ -4,11 +4,11 @@
 // Notice it uses its own constructor instead of Date
 var DateTime = luxon.DateTime;
 
-//const now = DateTime.luxon()
+const now = DateTime
 // Get the hour from today
-//const hour = now.hour
+const hour = DateTime.hour
 // Add 7 days to now
-//const weekAdd = now.plus({days: 7});
+const weekAdd = DateTime.plus({days: 7});
 
 // Now formatted like "Monday, November 23, 5pm"
 const dateFormatted = DateTime.toFormat("EEEE',' MMMM d',' ha")
