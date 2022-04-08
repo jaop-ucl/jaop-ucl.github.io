@@ -7,11 +7,11 @@
 var DateTime = luxon.DateTime
 
 const currenttime = DateTime.now().toLocal().toLocaleString(DateTime.DATETIME_FULL)
-const conferenceutc = DateTime.utc(2022, 4, 27, 14, 00).toLocaleString(DateTime.DATETIME_FULL)
+const conferenceutc = DateTime.utc(2022, 4, 27, 13, 00).toLocaleString(DateTime.DATETIME_FULL)
 const conference = DateTime.utc(2022, 4, 27, 14, 00).toLocal().toLocaleString(DateTime.DATETIME_FULL)
 
 
-const date1 = luxon.DateTime.fromISO("2023-04-27T14:00")
+const date1 = luxon.DateTime.fromISO("2023-04-27T13:00")
 
 const diffintime = date1.diff(DateTime.now(), ["years", "months", "days", "hours"])
 
