@@ -27,7 +27,7 @@ conference.toLocaleString(DateTime.DATETIME_FULL)
 //document.getElementById("package-link").innerHTML = "Luxon"
 //document.getElementById("package-link").href = "https://www.skypack.dev/view/luxon"
 document.getElementById('today').innerHTML = now
-document.getElementById('today-hour').innerHTML = hour
+//document.getElementById('today-hour').innerHTML = hour
 document.getElementById('conference-time').innerHTML = conference
 document.getElementById('conference-time-utc').innerHTML = conferenceutc
 //document.getElementById('week-add').innerHTML = weekAdd
