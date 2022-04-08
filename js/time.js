@@ -21,6 +21,7 @@ const conference = DateTime.fromObject({year: 2022, month: 4, day: 27, hour: 14,
 //const dateTimeParsing1 = DateTime.fromFormat('Jul 8, 2005', 'MMM d, y').toJSDate()
 //const dateTimeParsing2 = DateTime.fromFormat('2005-07-08', 'y-MM-dd').toJSDate()
 DateTime.now().toFormat('EEEE MMMM dd, yyyy')
+conference.toLocaleString(DateTime.DATETIME_FULL)
 
 //document.getElementById("package-link").innerHTML = "Luxon"
 //document.getElementById("package-link").href = "https://www.skypack.dev/view/luxon"
