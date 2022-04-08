@@ -22,7 +22,7 @@ const hour = DateTime.hour;
 
 //document.getElementById("package-link").innerHTML = "Luxon"
 //document.getElementById("package-link").href = "https://www.skypack.dev/view/luxon"
-document.getElementById('today').innerHTML = now;
+document.getElementById('today').innerHTML = DateTime;
 document.getElementById('today-hour').innerHTML = hour;
 //document.getElementById('week-add').innerHTML = weekAdd
 //document.getElementById('date-formatted').innerHTML = dateFormatted
