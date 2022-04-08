@@ -13,7 +13,7 @@ const conferenceutc = DateTime.fromObject({year: 2022, month: 4, day: 27, hour: 
 const date1 = luxon.DateTime.fromISO("2020-09-06T12:00")
 const date2 = luxon.DateTime.fromISO("2019-06-10T14:00")
 
-const timeuntilconoference = date1.diff(date2, ["years", "months", "days", "hours"])
+const timeuntilconoference = date1.diff(date2, ["years", "months", "days", "hours"]).toFormat("HH 'hours and' mm 'minutes'")
 
 document.getElementById('today').innerHTML = now
 document.getElementById('conference-time').innerHTML = conference
