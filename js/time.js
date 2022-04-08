@@ -12,9 +12,17 @@ const conference = DateTime.utc(2022, 4, 27, 14, 00).toLocal().toLocaleString(Da
 
 
 const date1 = luxon.DateTime.fromISO("2023-04-27T14:00")
-const date2 = luxon.DateTime.now()
 
-const timeuntilconoference = date1.diff(date2, ["years", "months", "days", "hours"]).toFormat("HH 'hours and' mm 'minutes'")
+const diffintime = date1.diff(DateTime.now(), ["years", "months", "days", "hours"])
+
+const days = Math.floor(diffintime.days)
+const hours = Math.floor(diffintime.hours)
+
+const actualhours = hours - days*24
+
+const timeuntilconoference = "Days: 'days' Hours: 'actualhours'"
+console.log(days); //2
+console.log(hours);
 
 document.getElementById('today').innerHTML = currenttime
 document.getElementById('conference-time-utc').innerHTML = conferenceutc
