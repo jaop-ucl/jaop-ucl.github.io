@@ -20,9 +20,11 @@ const hours = Math.floor(diffintime.hours)
 
 const actualhours = hours - days*24
 
-const timeuntilconoference = "Days: 'days' Hours: 'actualhours'"
-console.log(days); //2
-console.log(hours);
+const timeuntilconoference = "Days: ${days} Hours: ${actualhours}"
+console.log(days)
+console.log(actualhours)
+console.log(hours)
+console.log(timeuntilconoference)
 
 document.getElementById('today').innerHTML = currenttime
 document.getElementById('conference-time-utc').innerHTML = conferenceutc
