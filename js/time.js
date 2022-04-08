@@ -20,7 +20,7 @@ const hours = Math.floor(diffintime.hours)
 
 const actualhours = hours - days*24
 
-const timeuntilconoference = "Days: ${days} Hours: ${actualhours}"
+const timeuntilconoference = 'Days:' + days + ' Hours:' + hours
 console.log(days)
 console.log(actualhours)
 console.log(hours)
