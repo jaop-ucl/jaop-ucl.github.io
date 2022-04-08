@@ -26,3 +26,8 @@ document.getElementById('today').innerHTML = currenttime
 document.getElementById('conference-time-utc').innerHTML = conferenceutc
 document.getElementById('conference-time').innerHTML = conference
 document.getElementById('conference-time-until').innerHTML = timeuntilconoference
+
+
+const version = 6
+
+document.getElementById('version').innerHTML = version
