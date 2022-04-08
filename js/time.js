@@ -10,6 +10,9 @@ const now = DateTime.now().toUTC().toLocaleString(DateTime.DATETIME_FULL)
 const conference = DateTime.fromObject({year: 2022, month: 4, day: 27, hour: 14, minute: 05}, { zone: 'Europe/London' }).toLocaleString(DateTime.DATETIME_FULL)
 const conferenceutc = DateTime.fromObject({year: 2022, month: 4, day: 27, hour: 14, minute: 05}).toLocaleString(DateTime.DATETIME_FULL)
 
+const timeuntilconoference = now.diff(conferenceutc, ["years", "months", "days", "hours"])
+
 document.getElementById('today').innerHTML = now
 document.getElementById('conference-time').innerHTML = conference
 document.getElementById('conference-time-utc').innerHTML = conferenceutc
+document.getElementById('conference-time-until').innerHTML = timeuntilconoference
