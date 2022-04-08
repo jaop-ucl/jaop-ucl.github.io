@@ -15,7 +15,7 @@ const date2 = luxon.DateTime.fromISO("2019-06-10T14:00")
 
 const timeuntilconoference = date1.diff(date2, ["years", "months", "days", "hours"]).toFormat("HH 'hours and' mm 'minutes'")
 
-console.log(diff.toObject())
+console.log(timeuntilconoference.toObject())
 
 document.getElementById('today').innerHTML = now
 document.getElementById('conference-time').innerHTML = conference
