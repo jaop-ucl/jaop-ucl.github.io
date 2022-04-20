@@ -1,24 +1,107 @@
+<html>
+<head>
+  <title>Time for our Workshop</title>
+  <link type="text/css" href="css/styletime.css" rel="stylesheet" media="screen">
+</head>
+
+
 <body>
-  <h1>Date and time of our workshop</h1>
-  <div>
-    <h2>Current time in your timezone </h2>
-    <span id="today"> </span>
+<div class="flex-container">
+
+  <div class="flex-child">
+    <div class="row-header">
+      <h2>UTC time</h2>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Wait for attendees</div>
+      <div class="rTableCell"><span id="waitutc"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Introduction</div>
+      <div class="rTableCell"><span id="introutc"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Keynote 1</div>
+      <div class="rTableCell"><span id="keynote1utc"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Spotlight Talk</div>
+      <div class="rTableCell"><span id="spotlightutc"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Break</div>
+      <div class="rTableCell"><span id="breakutc"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Keynote 2</div>
+      <div class="rTableCell"><span id="keynote2utc"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Breakout room discussion</div>
+      <div class="rTableCell"><span id="breakoututc"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Presentation</div>
+      <div class="rTableCell"><span id="presentationutc"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Close</div>
+      <div class="rTableCell"><span id="closeutc"> </span></div>
+    </div>
   </div>
 
-  <div>
-    <h2>Time of workshop UTC</h2>
-    <span id="conference-time-utc"> </span>
+  <div class="flex-child">
+    <div class="row-header">
+      <h2>Local time</h2>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Wait for attendees</div>
+      <div class="rTableCell"><span id="wait"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Introduction</div>
+      <div class="rTableCell"><span id="intro"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Keynote 1</div>
+      <div class="rTableCell"><span id="keynote1"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Spotlight Talk</div>
+      <div class="rTableCell"><span id="spotlight"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Break</div>
+      <div class="rTableCell"><span id="break"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Keynote 2</div>
+      <div class="rTableCell"><span id="keynote2"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Breakout room discussion</div>
+      <div class="rTableCell"><span id="breakout"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Presentation</div>
+      <div class="rTableCell"><span id="presentation"> </span></div>
+    </div>
+    <div class="rTableRow">
+      <div class="rTableCell">Close</div>
+      <div class="rTableCell"><span id="close"> </span></div>
+    </div>
   </div>
+</div>
 
-  <div>
-    <h2>Time of workshop in your timezone</h2>
-    <span id="conference-time"> </span>
-  </div>
-  
-  <div>
-    <h2>Time until workshop</h2>
-    <span id="conference-time-until"> </span>
-  </div>
+<div class="container">
+  <ul>
+    <li><span id="days"></span>days</li>
+    <li><span id="hours"></span>Hours</li>
+    <li><span id="minutes"></span>Minutes</li>
+    <li><span id="seconds"></span>Seconds</li>
+  </ul>
+</div>
+
 </body>
 
 <footer>
@@ -30,4 +113,4 @@
 
 <script src="js/luxon.js"></script>
 <script src="js/time.js"></script>
-
+</html>
