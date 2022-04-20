@@ -55,10 +55,20 @@ function updateClock() {
     document.getElementById('presentationutc').innerHTML = presentutc
     document.getElementById('closeutc').innerHTML = closeutc
 
-    document.getElementById('days').innerHTML = days
-    document.getElementById('hours').innerHTML = hours
-    document.getElementById('minutes').innerHTML = minutes
-    document.getElementById('seconds').innerHTML = seconds
+    document.getElementById('days').innerHTML = pad(days)
+    document.getElementById('hours').innerHTML = pad(hours)
+    document.getElementById('minutes').innerHTML = pad(minutes)
+    document.getElementById('seconds').innerHTML = pad(seconds)
+}
+
+function pad(value) {
+    if(value <10) {
+        return '0' + value
+    }
+    else
+    {
+        return value
+    }
 }
 
 const version = 9
