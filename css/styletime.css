@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "gotham-ss-light";
+  src: url("../fonts/GothamSSm-Light.woff") format("woff"); }
+
+@font-face {
+  font-family: "gotham-ss-book";
+  src: url("../fonts/GothamSSm-Book.woff") format("woff"); }
+
+@font-face {
+  font-family: "gotham-ss-medium";
+  src: url("../fonts/GothamSSm-Medium.woff") format("woff"); }
+
+@font-face {
+  font-family: "gotham-ss-bold";
+  src: url("../fonts/GothamSSm-Bold.woff") format("woff"); }
+
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-family: "gotham-ss-medium", Arial, sans-serif;
+  font-weight: normal; }
+
+h2 {
+  font-size: 32pt;
+  font-weight: bold;
+}
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.container {
+  color: #333;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid yellowgreen;
+  margin: 20px;
+  padding: 20px;
+}
+
+.row-header {
+  margin: auto;
+  text-align: center;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+.rTable { display: table; }
+.rTableRow { display: table-row; }
+.rTableHeading { display: table-header-group; }
+.rTableBody { display: table-row-group; }
+.rTableFoot { display: table-footer-group; }
+.rTableCell, .rTableHead {
+  display: table-cell;
+  padding: 3px 10px;
+}
