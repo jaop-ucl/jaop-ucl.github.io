@@ -6,9 +6,25 @@
 var DateTime = luxon.DateTime
 
 function updateClock() {
-    const currenttime = DateTime.now().toLocal().toLocaleString(DateTime.DATETIME_FULL)
-    const conferenceutc = DateTime.utc(2022, 4, 27, 13, 00).toLocaleString(DateTime.DATETIME_FULL)
-    const conference = DateTime.utc(2022, 4, 27, 13, 00).toLocal().toLocaleString(DateTime.DATETIME_FULL)
+    const wait = DateTime.utc(2022, 4, 27, 13, 00).toLocal().toLocaleString(DateTime.DATETIME_FULL)
+    const intro = DateTime.utc(2022, 4, 27, 13, 10).toLocal().toLocaleString(DateTime.DATETIME_FULL)
+    const keynote1 = DateTime.utc(2022, 4, 27, 13, 20).toLocal().toLocaleString(DateTime.DATETIME_FULL)
+    const spotlight = DateTime.utc(2022, 4, 27, 14, 00).toLocal().toLocaleString(DateTime.DATETIME_FULL)
+    const tbreak = DateTime.utc(2022, 4, 27, 14, 20).toLocal().toLocaleString(DateTime.DATETIME_FULL)
+    const keynote2 = DateTime.utc(2022, 4, 27, 14, 35).toLocal().toLocaleString(DateTime.DATETIME_FULL)
+    const breakout = DateTime.utc(2022, 4, 27, 15, 15).toLocal().toLocaleString(DateTime.DATETIME_FULL)
+    const present = DateTime.utc(2022, 4, 27, 16, 25).toLocal().toLocaleString(DateTime.DATETIME_FULL)
+    const close = DateTime.utc(2022, 4, 27, 16, 40).toLocal().toLocaleString(DateTime.DATETIME_FULL)
+
+    const waitutc = DateTime.utc(2022, 4, 27, 13, 00).toLocaleString(DateTime.DATETIME_FULL)
+    const introutc = DateTime.utc(2022, 4, 27, 13, 10).toLocaleString(DateTime.DATETIME_FULL)
+    const keynote1utc = DateTime.utc(2022, 4, 27, 13, 20).toLocaleString(DateTime.DATETIME_FULL)
+    const spotlightutc = DateTime.utc(2022, 4, 27, 14, 00).toLocaleString(DateTime.DATETIME_FULL)
+    const tbreakutc = DateTime.utc(2022, 4, 27, 14, 20).toLocaleString(DateTime.DATETIME_FULL)
+    const keynote2utc = DateTime.utc(2022, 4, 27, 14, 35).toLocaleString(DateTime.DATETIME_FULL)
+    const breakoututc = DateTime.utc(2022, 4, 27, 15, 15).toLocaleString(DateTime.DATETIME_FULL)
+    const presentutc = DateTime.utc(2022, 4, 27, 16, 25).toLocaleString(DateTime.DATETIME_FULL)
+    const closeutc = DateTime.utc(2022, 4, 27, 16, 40).toLocaleString(DateTime.DATETIME_FULL)
 
     const date1 = DateTime.utc(2022, 4, 27, 13, 00)
 
@@ -19,15 +35,33 @@ function updateClock() {
     const minutes = Math.floor(diffintime.minutes)
     const seconds = Math.floor(diffintime.seconds)
 
-    const timeuntilconoference = 'Days:' + days + ' Hours:' + hours + ' Minutes:' + minutes + ' Seconds:' + seconds
+    document.getElementById('wait').innerHTML = wait
+    document.getElementById('intro').innerHTML = intro
+    document.getElementById('keynote1').innerHTML = keynote1
+    document.getElementById('spotlight').innerHTML = spotlight
+    document.getElementById('break').innerHTML = tbreak
+    document.getElementById('keynote2').innerHTML = keynote2
+    document.getElementById('breakout').innerHTML = breakout
+    document.getElementById('presentation').innerHTML = present
+    document.getElementById('close').innerHTML = close
 
-    document.getElementById('today').innerHTML = currenttime
-    document.getElementById('conference-time-utc').innerHTML = conferenceutc
-    document.getElementById('conference-time').innerHTML = conference
-    document.getElementById('conference-time-until').innerHTML = timeuntilconoference
+    document.getElementById('waitutc').innerHTML = waitutc
+    document.getElementById('introutc').innerHTML = introutc
+    document.getElementById('keynote1utc').innerHTML = keynote1utc
+    document.getElementById('spotlightutc').innerHTML = spotlightutc
+    document.getElementById('breakutc').innerHTML = tbreakutc
+    document.getElementById('keynote2utc').innerHTML = keynote2utc
+    document.getElementById('breakoututc').innerHTML = breakoututc
+    document.getElementById('presentationutc').innerHTML = presentutc
+    document.getElementById('closeutc').innerHTML = closeutc
+
+    document.getElementById('days').innerHTML = days
+    document.getElementById('hours').innerHTML = hours
+    document.getElementById('minutes').innerHTML = minutes
+    document.getElementById('seconds').innerHTML = seconds
 }
 
-const version = 8
+const version = 9
 
 document.getElementById('version').innerHTML = version
 
