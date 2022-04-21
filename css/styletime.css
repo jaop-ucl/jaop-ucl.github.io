@@ -21,7 +21,18 @@ h1, h2, h3, h4, h5, h6, strong {
   font-family: "gotham-ss-medium", Arial, sans-serif;
   font-weight: normal; }
 
+h1 {
+  font-size: 18pt;
+  text-align: center;
+}
+
 h2 {
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+}
+
+h3 {
   font-size: 32pt;
   font-weight: bold;
 }
@@ -42,6 +53,10 @@ li {
 li span {
   display: block;
   font-size: 4.5rem;
+}
+
+.title {
+  padding: 20 200 20 200;
 }
 
 .container {
