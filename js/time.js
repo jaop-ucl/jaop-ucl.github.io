@@ -55,10 +55,15 @@ function updateClock() {
     document.getElementById('presentationutc').innerHTML = presentutc
     document.getElementById('closeutc').innerHTML = closeutc
 
-    document.getElementById('days').innerHTML = pad(days)
+    /*document.getElementById('days').innerHTML = pad(days)
     document.getElementById('hours').innerHTML = pad(hours)
     document.getElementById('minutes').innerHTML = pad(minutes)
-    document.getElementById('seconds').innerHTML = pad(seconds)
+    document.getElementById('seconds').innerHTML = pad(seconds)> */
+    
+    document.getElementById('days').innerHTML = '00'
+    document.getElementById('hours').innerHTML = '00'
+    document.getElementById('minutes').innerHTML = '00'
+    document.getElementById('seconds').innerHTML = '00'
 }
 
 function pad(value) {
